@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    tools:context=".noticeuser">
+    tools:context=".noticeuser"
+    android:layout_weight="1">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/next_toolbar"
@@ -18,6 +19,39 @@
         android:theme="?attr/actionBarTheme"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알림보내기"
+        android:background="@drawable/gdbtn"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알림 설정 권한을 허용해 주시면 서적 재고 관련 알림이 안내됩니다."
+        android:textSize="13dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/alim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알림 권한 설정"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+
 
 
 

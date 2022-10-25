@@ -63,7 +63,7 @@
         android:layout_marginTop="10pt"
         android:layout_marginEnd="10pt"
         android:background="@drawable/gdbtn"
-        android:text="서적 검색"
+        android:text="중고 서적 검색"
         android:textColor="@color/white"
         android:textSize="10pt"
         app:layout_constraintTop_toTopOf="parent" />

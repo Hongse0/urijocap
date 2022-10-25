@@ -15,7 +15,7 @@ public class noticeuser extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.next_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("알림 송신");
+        getSupportActionBar().setTitle("알림 수신");
     }
 
     @Override
